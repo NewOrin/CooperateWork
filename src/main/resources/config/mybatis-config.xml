@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 取别名 -->
+	<typeAliases>
+		<typeAlias type="com.etc.cooperatework.entity.Department"
+			alias="department" />
+		<typeAlias type="com.etc.cooperatework.entity.User" alias="user" />
+		<typeAlias type="com.etc.cooperatework.entity.Role" alias="role" />
+		<typeAlias type="com.etc.cooperatework.entity.Employee"
+			alias="employee" />
+		<typeAlias type="com.etc.cooperatework.entity.File" alias="file" />
+		<typeAlias type="com.etc.cooperatework.entity.Meeting"
+			alias="meeting" />
+		<typeAlias type="com.etc.cooperatework.entity.Message"
+			alias="message" />
+		<typeAlias type="com.etc.cooperatework.entity.Room" alias="room" />
+		<typeAlias type="com.etc.cooperatework.entity.Schedule"
+			alias="schedule" />
+		<typeAlias type="com.etc.cooperatework.entity.Work" alias="work" />
+	</typeAliases>
+</configuration>
